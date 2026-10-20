@@ -1,0 +1,4 @@
+PASS: 1000/1000 aligned numerical projections
+PASS: 0/1000 unrelated-goal false positives
+PASS: 0/1000 inverted-goal false positives
+Only a mathematical approximation; native Julia/Ada execution NOT established.

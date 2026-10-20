@@ -1,0 +1,220 @@
+IX-AGI Source-Available Evaluation License v1.0
+
+Copyright (c) 2026 Bryce Lovell. All rights reserved.
+
+This license governs the IX-AGI software, documentation, examples,
+configuration files, tests, project materials, and related repository content
+published with this license, except for third-party components that are
+separately identified and governed by their own license terms.
+
+1. Purpose
+
+IX-AGI is made source-available so that interested parties may inspect the
+project, review its technical structure, and perform limited noncommercial
+evaluation to decide whether to contact the copyright holder about a separate
+commercial or operational license.
+
+This license does not grant open-source rights. It does not grant permission for
+commercial use, production use, redistribution, modification, derivative works,
+hosted-service use, resale, procurement use, contractor use, agency operational
+use, government operational use, or any use intended to generate revenue,
+operational advantage, procurement advantage, or deployed capability unless a
+separate written agreement is executed with Bryce Lovell.
+
+2. Definitions
+
+"Software" means the IX-AGI source code, documentation, tests, examples,
+configuration files, workflows, project artifacts, and other materials included
+in this repository or any release that references this license.
+
+"You" means the individual or legal entity accessing, viewing, evaluating, or
+using the Software.
+
+"Evaluation" means limited internal review or testing of the unmodified Software
+for the sole purpose of understanding its design, behavior, technical fit, or
+potential value before contacting the copyright holder about a separate license.
+Evaluation does not include production use, commercial use, operational use,
+redistribution, modification, integration into another product or service,
+resale, hosted-service use, or use for the benefit of a customer, client,
+program, contract, agency, employer, or third party.
+
+"Commercial Use" means any use, access, testing, evaluation, integration,
+deployment, distribution, demonstration, or other activity involving the Software
+that is connected to revenue, compensation, paid work, consulting, contracting,
+procurement, product development, service delivery, resale, investment,
+business operations, competitive advantage, or work performed for or on behalf
+of any company, agency, contractor, integrator, institution, or other
+organization.
+
+"Operational Use" means use of the Software, in whole or in part, to support,
+automate, influence, validate, evaluate, document, approve, monitor, test,
+control, govern, or operate any real system, workflow, product, service,
+program, engineering process, procurement process, mission, customer engagement,
+or decision pipeline.
+
+"Modification" means any change, edit, adaptation, translation, transformation,
+conversion, extension, refactor, port, merge, extraction, or other alteration of
+the Software, including creation of derivative works.
+
+3. Permitted Evaluation Rights
+
+Subject to full compliance with this license, You may:
+
+(a) view and inspect the Software;
+
+(b) clone or download the Software solely for personal, noncommercial,
+non-operational evaluation;
+
+(c) run the unmodified Software locally solely for personal, noncommercial,
+non-operational evaluation; and
+
+(d) share a link to the original public repository.
+
+These permissions are limited, revocable upon breach, non-exclusive,
+non-transferable, and do not include any rights not expressly granted in this
+license.
+
+4. Prohibited Uses
+
+Without prior written permission from Bryce Lovell under a separate agreement,
+You may not:
+
+(a) use the Software for any Commercial Use;
+
+(b) use the Software for any Operational Use;
+
+(c) use the Software in production or production-like environments;
+
+(d) modify the Software;
+
+(e) create derivative works based on the Software;
+
+(f) redistribute, sublicense, sell, rent, lease, lend, publish, mirror, rehost,
+package, or otherwise provide copies of the Software to any third party;
+
+(g) integrate the Software into any product, service, internal tool, hosted
+service, platform, workflow, pipeline, agent system, runtime, evaluation system,
+or engineering process;
+
+(h) use the Software to provide consulting, contracting, implementation,
+integration, testing, evaluation, assurance, compliance, governance, audit,
+DevSecOps, developer-tooling, autonomy, defense, safety, or engineering services;
+
+(i) use the Software for or on behalf of a company, agency, government entity,
+defense contractor, prime contractor, subcontractor, systems integrator,
+research institution, funded program, procurement effort, customer, client, or
+other organization;
+
+(j) use the Software to train, fine-tune, benchmark, evaluate, compare, improve,
+or operate any model, agent, automated repair system, development tool,
+commercial product, procurement artifact, proposal, whitepaper, internal roadmap,
+or competing implementation;
+
+(k) remove, obscure, or alter copyright, license, attribution, or restriction
+notices;
+
+(l) claim ownership of the Software or imply endorsement, sponsorship,
+affiliation, approval, certification, procurement status, production readiness,
+or official relationship with Bryce Lovell or IX-AGI;
+
+(m) use the Software in any way that violates applicable law, regulation,
+contractual obligation, export-control obligation, confidentiality obligation,
+or third-party right; or
+
+(n) attempt to circumvent the intent of this license by using contractors,
+affiliates, subsidiaries, customers, vendors, integrators, automated systems, or
+other third parties to perform restricted activity.
+
+5. Commercial and Operational Licensing
+
+Commercial, production, hosted-service, resale, redistribution, modification,
+derivative deployment, government operational, agency operational, defense
+contractor, systems integrator, procurement, pilot, funded evaluation, or
+organization-backed use requires prior written permission and a separate license
+agreement with Bryce Lovell.
+
+Contact path:
+
+LinkedIn: https://www.linkedin.com/in/brycewdesign/
+GitHub: https://github.com/BryceWDesign
+
+No commercial or operational rights are granted until a separate written
+agreement is executed.
+
+6. No Implied Rights
+
+All rights not expressly granted are reserved by Bryce Lovell. No license is
+granted by implication, estoppel, waiver, course of dealing, or otherwise.
+
+This license does not grant rights to any trade name, trademark, service mark,
+logo, project name, brand, domain name, social-media handle, or other identifier
+associated with Bryce Lovell or IX-AGI.
+
+7. Contributions
+
+This project is not accepting license-implied contributions under this license.
+Unless a separate written contribution agreement states otherwise, any submission
+of code, documentation, suggestions, issues, pull requests, feedback, examples,
+ideas, or other materials does not create any obligation for Bryce Lovell to use,
+review, accept, compensate, credit, or license that submission.
+
+Do not submit confidential, proprietary, export-controlled, classified,
+restricted, employer-owned, customer-owned, or third-party-owned information.
+
+8. Initial Publication
+
+This license applies to the initial and subsequent distributions of
+IX-AGI that include it. No previous IX-AGI release under
+Apache 2.0 is represented or implied. Third-party software is governed by
+its own license when separately identified.
+
+9. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, SECURITY, RELIABILITY, ACCURACY, COMPLETENESS, PERFORMANCE,
+AVAILABILITY, OR ERROR-FREE OPERATION.
+
+The Software is a research prototype. It is not certified, production-ready,
+procurement-ready, safety-certified, security-certified, compliance-certified,
+or approved for operational use.
+
+10. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, BRYCE LOVELL SHALL NOT BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, PUNITIVE, OR
+OTHER DAMAGES, INCLUDING WITHOUT LIMITATION LOST PROFITS, LOST REVENUE, LOST
+DATA, BUSINESS INTERRUPTION, PROCUREMENT LOSS, CONTRACT LOSS, GOODWILL LOSS,
+SECURITY INCIDENTS, SYSTEM FAILURES, OPERATIONAL FAILURES, OR THIRD-PARTY CLAIMS,
+ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+11. Termination
+
+Any violation of this license automatically terminates all permissions granted to
+You under this license. Upon termination, You must immediately stop accessing,
+using, evaluating, running, or retaining the Software and must delete all copies
+in Your possession or control, except where retention is required by law.
+
+Termination does not limit any remedies available to Bryce Lovell.
+
+12. Governing Law and Severability
+
+This license should be interpreted to preserve the maximum restriction and
+reservation of rights permitted by applicable law. If any provision is held
+unenforceable, the remaining provisions remain in effect.
+
+13. Plain-Language Summary
+
+You may view and locally evaluate the unmodified Software for personal,
+noncommercial, non-operational review.
+
+You may not use it commercially, modify it, redistribute it, deploy it, integrate
+it, profit from it, provide services with it, use it for an organization, or use
+it for government, agency, contractor, procurement, funded, production, or
+operational purposes unless You first obtain written permission and a separate
+license from Bryce Lovell.
+
+The plain-language summary is provided for convenience only. The license terms
+above control.

@@ -1,0 +1,9 @@
+*.jl.cov
+*.jl.mem
+*.ji
+*.tmp
+.DS_Store
+vendor/IXBlackFoxAGI/ada/lib/*
+vendor/IXBlackFoxAGI/ada/obj/*
+results/demo_check.*
+results/demo_check.*.sha256

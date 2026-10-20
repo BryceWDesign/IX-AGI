@@ -1,0 +1,35 @@
+name: IX-AGI native integration
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.10'
+      - name: Install native Ada builder
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gnat gprbuild
+      - name: Compile separately governed Ada boundary
+        run: gprbuild -p -P vendor/IXBlackFoxAGI/ada/ix_guard.gpr
+      - name: Source integrity and wiring audit
+        run: |
+          bash tools/verify-release.sh
+          python3 tools/source_audit.py
+          python3 tools/channel_math_sanity.py
+      - name: Run unmodified BlackFox baseline tests
+        run: julia --project=vendor/IXBlackFoxAGI vendor/IXBlackFoxAGI/test/runtests.jl
+      - name: Run new native cognition tests
+        run: julia --project=. test/runtests.jl
+      - name: Execute actual dual-cognition demonstration
+        run: julia --project=. bin/ixagi.jl
+      - name: Native matched-evidence comparison
+        run: julia --project=. experiments/comparison.jl

@@ -1,0 +1,11 @@
+project IX_Guard is
+   for Languages use ("Ada");
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Library_Dir use "lib";
+   for Library_Name use "ixbf_guard";
+   for Library_Kind use "dynamic";
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnat2022", "-gnatwa", "-gnata", "-gnato");
+   end Compiler;
+end IX_Guard;
